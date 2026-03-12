@@ -8,6 +8,7 @@ public class EntradaComJanela {
         String auxiliar;
         try {
             auxiliar = JOptionPane.showInputDialog("Digite um número inteiro");
+            //Porque têm auxiliar?
             num1 = Integer.parseInt(auxiliar);
             auxiliar = JOptionPane.showInputDialog("Digite outro número inteiro");
             num2 = Integer.parseInt(auxiliar);
