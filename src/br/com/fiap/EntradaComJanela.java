@@ -15,7 +15,7 @@ public class EntradaComJanela {
             resultado = num1 + num2;
             JOptionPane.showMessageDialog(null, "Valor 1: " + num1 + "\nValor 2: " + num2 + "\nSoma dos valores: " + resultado);
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Formato de número incorreto bobão");
+            JOptionPane.showMessageDialog(null, "Formato de número incorreto bobão.");
         }
     }
 }
