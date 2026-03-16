@@ -7,7 +7,7 @@ public class EntradaComJanela {
         int num1, num2, resultado;
         String auxiliar;
         try {
-            auxiliar = JOptionPane.showInputDialog("Digite um número inteiro ( primeira janela haha):");
+            auxiliar = JOptionPane.showInputDialog("Digite um número inteiro (primeira janela haha):");
             //Porque têm auxiliar?
             num1 = Integer.parseInt(auxiliar);
             auxiliar = JOptionPane.showInputDialog("Digite outro número inteiro");
