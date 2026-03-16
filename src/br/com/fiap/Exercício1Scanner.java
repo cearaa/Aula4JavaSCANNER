@@ -15,7 +15,7 @@ public class Exercício1Scanner {
             p3 = scan.nextFloat();
             p4 = scan.nextFloat();
             media = p1 + p2 + p3 + p4 /4;
-            System.out.println("Prova 1: " + p1 + "\nProva 2: " + p2 + "\nProva 3: " + p3 + "\nProva 4: " + p4 + "\nMédia: " + media);
+            System.out.println("Prova 1: " + p1 + "Prova 2: " + p2 + "Prova 3: " + p3 + "Prova 4: " + p4 + "Média: " + media);
         } catch (Exception e) {
             System.out.println("Formato de número incorreto.");
         }
