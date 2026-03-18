@@ -10,8 +10,8 @@ public class Exercício2Scanner {
         try {
         scan = new Scanner(System.in);
             System.out.println("Digíte o ano atual");
-            System.out.println("Digíte o seu ano de Nascimento");
             AnoAtual = scan.nextInt();
+            System.out.println("Digíte o seu ano de Nascimento");
             AnoNasc = scan.nextInt();
             idade = AnoAtual - AnoNasc;
             System.out.println("Ano atual: " + AnoAtual + "\nDigite o seu ano de Nascimento: " + AnoNasc + "\nSua Idade atual: " + idade);

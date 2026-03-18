@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercício3Scanner {
     public static void main(String[] args) {
         double raio, area;
+        //Ou final double: 3,14,15...
         Scanner scan;
         
         try {

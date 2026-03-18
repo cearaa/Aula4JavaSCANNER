@@ -9,13 +9,16 @@ public class Exercício1Scanner {
         Scanner scan;
         try {
             scan = new Scanner(System.in);
-            System.out.println("Dígite a nota das 4 provas.");
+            System.out.println("Dígite a nota da prova 1.");
             p1 = scan.nextFloat();
+            System.out.println("Dígite a nota da prova 2.");
             p2 = scan.nextFloat();
+            System.out.println("Dígite a nota da prova 3.");
             p3 = scan.nextFloat();
+            System.out.println("Dígite a nota da prova 4.");
             p4 = scan.nextFloat();
-            media = p1 + p2 + p3 + p4 /4;
-            System.out.println("Prova 1: " + p1 + "Prova 2: " + p2 + "Prova 3: " + p3 + "Prova 4: " + p4 + "Média: " + media);
+            media = (p1 + p2 + p3 + p4) /4;
+            System.out.println("Prova 1: " + p1 + "\nProva 2: " + p2 + "\nProva 3: " + p3 + "\nProva 4: " + p4 + "\nMédia: " + media);
         } catch (Exception e) {
             System.out.println("Formato de número incorreto.");
         }
