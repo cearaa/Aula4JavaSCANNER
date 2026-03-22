@@ -21,3 +21,5 @@ public class Exercício2Scanner {
         }
     }
 }
+def validar_senha(senha):
+
